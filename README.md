@@ -1,6 +1,6 @@
 # dotNOVI Application
 
-Een eenvoudige Node.js applicatie voor het NOVI Hogeschool DevOps cursus. Deze applicatie dient als basis voor het leren van DevOps-praktijken, inclusief containerisatie, CI/CD, en deployment.
+Een eenvoudige Node.js applicatie voor de NOVI Hogeschool DevOps cursus. Deze applicatie dient als basis voor het leren van DevOps-praktijken, inclusief containerisatie, CI/CD, en deployment.
 
 ## Wat is dotNOVI?
 
@@ -29,7 +29,7 @@ dotNOVI is een **student version** - een werkende applicatie zonder DevOps-confi
 
 ```bash
 # 1. Clone of download de applicatie
-cd dotNOVI-2026-04
+cd DevOps-dotnovi-week1
 
 # 2. Installeer dependencies
 npm install
@@ -39,6 +39,8 @@ npm run dev
 ```
 
 De app draait op `http://localhost:3000`
+
+Zonder database zie je foutmeldingen. Dat is normaal, de app draait dan wel.
 
 ### Met PostgreSQL Database
 
